@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Tekdujour is a software development and networking company. We develop mobile, desktop, web apps and network solutions.
+Tekdujour is comprised of a team of engineers, coders and artist which embody the same frame of mind.  Proper planning combined with creative thinking plus highly skilled professionals leads to success.
 
-### More Information
+### For More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+### Contact us
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[info@tekdujour.com](mailto:info@tekdujour.com)
