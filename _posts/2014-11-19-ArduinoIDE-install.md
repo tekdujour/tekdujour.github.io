@@ -25,5 +25,4 @@ Download the Arduino IDE from [arduino.cc](http://arduino.cc/en/Main/Software) c
 5. Once you have selected the blink program it will open  ![image](../images/arduinoInstall/blinkprogram.png)
 6. Click the upload to programmer button to upload to the program to the Arduino  ![image](../images/arduinoInstall/uploadProgram.png)
 7. You should now have a flashing light on your Arduino 
-![image](../images/arduinoInstall/IMG_0676.MOV)
 
