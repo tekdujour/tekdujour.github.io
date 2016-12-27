@@ -30,10 +30,10 @@ Inherit from DbContext class **:DbContext**
 ![image](../images/simpleblog/ScreenShot4.png)
 
   * Add the top of your class make sure you add the  following using statement:
-```csharp
-using Microsoft.EntityFrameworkCore;
-using SimpleBlog.Models;
-```
+	```csharp
+		using Microsoft.EntityFrameworkCore;
+		using SimpleBlog.Models;
+	```
 
   * Create a Dbset of type post 
 ```csharp  
