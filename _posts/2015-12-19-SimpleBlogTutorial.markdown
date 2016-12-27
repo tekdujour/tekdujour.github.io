@@ -44,10 +44,10 @@ using SimpleBlog.Models;
 In the ***startup.cs*** file add the SimpleBlogDataContext as a service in the configuration service method.  
 Tell it what database provider to use and get the connection string for that database.  The connection string for that database is located in appsetting.json
 Place it just before the applicationDBContext service.  
+
 ```csharp
      services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
 ```
 
 ![image](../images/simpleblog/ScreenShot4a.png)
@@ -62,13 +62,11 @@ Make sure you a contstructor to the dbcontext class that takes
   *  Type **Add-Migration** in the package manager console.  This gets everything ready to create a database.  
 ```csharp
     PM> Add-Migration IntialDB -context ASimpleBlogDataContext
-
 ```
 in the data folder you should see a folder called ***Migrations*** and in that folder a file name ASimpleBlogDataContext
 Type **Updata-Database** command to create the database
 ```csharp
     PM> Update-Database -Context AsimpleBlogDataContext 
-
 ```
 
 5.  Now we will scaffold out a ***PostController*** so we can interact with our data.  Scaffolding out a controller creates the CRUD operation so we can interact with it
