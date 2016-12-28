@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Create a simple blog in asp.NET core
+title: Create a simple blog in asp.NET core(Part 1)
 ---
 
-### Creating a simple blog in Asp.net core (Part 1)
+
 
 In this tutorial we will create a simple blogging app
 
@@ -30,13 +30,14 @@ Inherit from DbContext class **:DbContext**
 ![image](../images/simpleblog/ScreenShot4.png)
 
   * Add the top of your class make sure you add the  following using statement:
+	
 	```csharp
 		using Microsoft.EntityFrameworkCore;
 		using SimpleBlog.Models;
 	```
 
-  * Create a Dbset of type post 
-```csharp  
+  * Create a Dbset of type post   
+```  
        public DbSet<Post> posts { get; set; } 
 ```
 
