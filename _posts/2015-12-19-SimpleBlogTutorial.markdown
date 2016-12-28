@@ -37,6 +37,7 @@ Inherit from DbContext class **:DbContext**
 	```
 
   * Create a Dbset of type post   
+  
 ```  
        public DbSet<Post> posts { get; set; } 
 ```
@@ -56,16 +57,19 @@ Place it just before the applicationDBContext service.
 
 Since were using dependency injection 
 Make sure you a contstructor to the dbcontext class that takes 
+
 ```csharp
     public SimpleBlogDataContext(DbContextOptions<SimpleBlogDataContext> options) : base(options)
 ```
 
   *  Type **Add-Migration** in the package manager console.  This gets everything ready to create a database.  
+  
 ```csharp
     PM> Add-Migration IntialDB -context ASimpleBlogDataContext
 ```
 in the data folder you should see a folder called ***Migrations*** and in that folder a file name ASimpleBlogDataContext
 Type **Updata-Database** command to create the database
+
 ```csharp
     PM> Update-Database -Context AsimpleBlogDataContext 
 ```
