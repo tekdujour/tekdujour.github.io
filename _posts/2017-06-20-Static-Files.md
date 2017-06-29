@@ -21,7 +21,7 @@ Pre-Requirement: Visual studio 2017 installed.
 
 
 4. Create ***index.html*** file in wwwroot folder
-![alt](../images/vs17empty/index.png)
+![alt](../images/vs17empty/index.PNG)
 
 5.  Now run you project,  you should see your the index.html file displayed in the browser
 
